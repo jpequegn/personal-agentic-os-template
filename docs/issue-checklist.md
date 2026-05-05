@@ -3,7 +3,7 @@
 - [x] #1 Scaffold repo, Python package, and quality tooling
   - Create minimal Python CLI project, tests, lint, `.gitignore`, and quickstart.
 
-- [ ] #2 Define the 7-layer template structure
+- [x] #2 Define the 7-layer template structure
   - Add one folder per layer, layer READMEs, and manifest validation.
 
 - [ ] #3 Add tiny example app exercising all seven layers

@@ -1,0 +1,36 @@
+layers:
+  - name: "identity"
+    purpose: "Purpose, roles, boundaries, and operating principles for the system."
+    readme: "README.md"
+    required_files:
+      - "README.md"
+  - name: "context"
+    purpose: "Current state, source snapshots, constraints, and working plans."
+    readme: "README.md"
+    required_files:
+      - "README.md"
+  - name: "skills"
+    purpose: "Reusable procedures, commands, prompts, and task playbooks."
+    readme: "README.md"
+    required_files:
+      - "README.md"
+  - name: "memory"
+    purpose: "Durable facts, decisions, retrospectives, and retrieval indices."
+    readme: "README.md"
+    required_files:
+      - "README.md"
+  - name: "connections"
+    purpose: "Interfaces to repositories, files, APIs, people, and tools."
+    readme: "README.md"
+    required_files:
+      - "README.md"
+  - name: "verification"
+    purpose: "Tests, reviews, evals, quality gates, and audit trails."
+    readme: "README.md"
+    required_files:
+      - "README.md"
+  - name: "automations"
+    purpose: "Scheduled, event-driven, or watcher-based routines."
+    readme: "README.md"
+    required_files:
+      - "README.md"
