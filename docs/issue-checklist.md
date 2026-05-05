@@ -12,7 +12,7 @@
 - [x] #4 Add adoption checklist and scaffold validation command
   - Make the template actionable and validate scaffold completeness.
 
-- [ ] #5 Map backlog projects and P³-style systems to the scaffold
+- [x] #5 Map backlog projects and P³-style systems to the scaffold
   - Document concrete mappings and missing/mature/partial layers.
 
 - [ ] #6 Closeout docs and template readiness review

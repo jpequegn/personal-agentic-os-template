@@ -45,6 +45,9 @@ uv run agentic-os-template example /tmp/agentic-os-daily-brief
 - Implementation plan: `docs/plans/2026-05-04-personal-agentic-os-template.md`
 - Issue checklist: `docs/issue-checklist.md`
 
+- Project mappings: `docs/project-mappings.md`
+- Adoption checklist: `docs/adoption-checklist.md`
+
 ## Usual protocol
 
 Implementation proceeds issue-by-issue on feature branches with tests/review where applicable, PRs linked with `Closes #N`, squash merges, and main sync between issues.
