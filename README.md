@@ -35,6 +35,7 @@ uv run --extra dev python -m pytest -q
 uv run --extra dev ruff check .
 uv run agentic-os-template --help
 uv run agentic-os-template layers
+uv run agentic-os-template validate template
 uv run agentic-os-template example /tmp/agentic-os-daily-brief
 ```
 
