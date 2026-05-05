@@ -47,6 +47,10 @@ uv run agentic-os-template example /tmp/agentic-os-daily-brief
 
 - Project mappings: `docs/project-mappings.md`
 - Adoption checklist: `docs/adoption-checklist.md`
+- Usage guide: `docs/usage.md`
+- Security/privacy guide: `docs/security-privacy.md`
+- Roadmap: `docs/roadmap.md`
+- V1 readiness review: `docs/retrospectives/v1-readiness-review.md`
 
 ## Usual protocol
 
