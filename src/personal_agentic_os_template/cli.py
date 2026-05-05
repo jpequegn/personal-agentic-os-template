@@ -1,3 +1,5 @@
+import json
+from pathlib import Path
 from typing import Annotated
 
 import typer
@@ -5,6 +7,7 @@ from rich.console import Console
 from rich.table import Table
 
 from personal_agentic_os_template import __version__
+from personal_agentic_os_template.example import build_daily_brief
 
 app = typer.Typer(help="Reusable 7-layer Personal Agentic OS scaffold tools.")
 console = Console()
@@ -48,3 +51,14 @@ def layers() -> None:
     for name, purpose in LAYERS:
         table.add_row(name, purpose)
     console.print(table)
+
+
+@app.command()
+def example(output_dir: Path) -> None:
+    """Generate the deterministic daily-brief example into OUTPUT_DIR."""
+    report = build_daily_brief(output_dir)
+    typer.echo(json.dumps(report, indent=2))
+
+
+if __name__ == "__main__":
+    app()
