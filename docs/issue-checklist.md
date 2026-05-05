@@ -1,6 +1,6 @@
 # Issue checklist
 
-- [ ] #1 Scaffold repo, Python package, and quality tooling
+- [x] #1 Scaffold repo, Python package, and quality tooling
   - Create minimal Python CLI project, tests, lint, `.gitignore`, and quickstart.
 
 - [ ] #2 Define the 7-layer template structure
