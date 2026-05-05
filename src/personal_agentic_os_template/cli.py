@@ -8,6 +8,7 @@ from rich.table import Table
 
 from personal_agentic_os_template import __version__
 from personal_agentic_os_template.example import build_daily_brief
+from personal_agentic_os_template.scaffold import validate_scaffold
 
 app = typer.Typer(help="Reusable 7-layer Personal Agentic OS scaffold tools.")
 console = Console()
@@ -58,6 +59,19 @@ def example(output_dir: Path) -> None:
     """Generate the deterministic daily-brief example into OUTPUT_DIR."""
     report = build_daily_brief(output_dir)
     typer.echo(json.dumps(report, indent=2))
+
+
+@app.command()
+def validate(
+    template_dir: Annotated[
+        Path, typer.Argument(help="Path to a scaffold template directory.")
+    ] = Path("template"),
+) -> None:
+    """Validate a scaffold instance and emit deterministic JSON."""
+    report = validate_scaffold(template_dir)
+    typer.echo(json.dumps(report, indent=2))
+    if not report["ok"]:
+        raise typer.Exit(1)
 
 
 if __name__ == "__main__":
