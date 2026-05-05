@@ -6,7 +6,7 @@
 - [x] #2 Define the 7-layer template structure
   - Add one folder per layer, layer READMEs, and manifest validation.
 
-- [ ] #3 Add tiny example app exercising all seven layers
+- [x] #3 Add tiny example app exercising all seven layers
   - Build a deterministic no-network example app that touches every layer.
 
 - [ ] #4 Add adoption checklist and scaffold validation command
