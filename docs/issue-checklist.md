@@ -15,5 +15,5 @@
 - [x] #5 Map backlog projects and P³-style systems to the scaffold
   - Document concrete mappings and missing/mature/partial layers.
 
-- [ ] #6 Closeout docs and template readiness review
+- [x] #6 Closeout docs and template readiness review
   - Add usage/roadmap/retrospective docs and prepare source issue closeout after merge.
