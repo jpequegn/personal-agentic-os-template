@@ -28,6 +28,15 @@ This repo starts as a template and reference implementation, not a full app plat
 - checklist and docs for applying the scaffold to future projects
 - closeout guidance explaining where the scaffold is useful vs overkill
 
+## Quickstart
+
+```bash
+uv run --extra dev python -m pytest -q
+uv run --extra dev ruff check .
+uv run agentic-os-template --help
+uv run agentic-os-template layers
+```
+
 ## Planning docs
 
 - Source snapshot: `docs/source/project-ideas-33.md`
